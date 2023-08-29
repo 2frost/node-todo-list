@@ -31,7 +31,7 @@ app.use("/api", (router, todosRouter));
 app.use(errorHandlerMiddleware);
 
 app.listen(PORT, () => {
-  console.log(PORT, "포트로 서버가 열렸어요!");
+  console.log(PORT, '포트로 서버가 열렸어요!');
 });
 
 // 미들웨어는 **등록된 순서대로 실행**됩니다. **TodoRouter**에서 비즈니스 로직을 수행한 후 발생한 에러는
